@@ -1,0 +1,45 @@
+// GtkNotebook [complete]
+
+GtkWidget *gtk_notebook_new();
+int gtk_notebook_append_page(GtkNotebook *, GtkWidget *, GtkWidget *);
+int gtk_notebook_append_page_menu(GtkNotebook *, GtkWidget *, GtkWidget *, GtkWidget *);
+int gtk_notebook_prepend_page(GtkNotebook *, GtkWidget *, GtkWidget *);
+int gtk_notebook_prepend_page_menu(GtkNotebook *, GtkWidget *, GtkWidget *, GtkWidget *);
+void gtk_notebook_insert_page(GtkNotebook *, GtkWidget *, GtkWidget *, int);
+int gtk_notebook_insert_page_menu(GtkNotebook *, GtkWidget *, GtkWidget *, GtkWidget *, int);
+void gtk_notebook_remove_page(GtkNotebook *, int);
+int gtk_notebook_page_num(GtkNotebook *, GtkWidget *);
+void gtk_notebook_next_page(GtkNotebook *);
+void gtk_notebook_prev_page(GtkNotebook *);
+void gtk_notebook_reorder_child(GtkNotebook *, GtkWidget *, int);
+void gtk_notebook_set_tab_pos(GtkNotebook *, GtkPositionType);
+void gtk_notebook_set_show_tabs(GtkNotebook *, bool);
+void gtk_notebook_set_show_border(GtkNotebook *, bool);
+void gtk_notebook_set_scrollable(GtkNotebook *, bool);
+void gtk_notebook_popup_enable(GtkNotebook *);
+void gtk_notebook_popup_disable(GtkNotebook *);
+int gtk_notebook_get_current_page(GtkNotebook *);
+GtkWidget *gtk_notebook_get_menu_label(GtkNotebook *, GtkWidget *);
+GtkWidget *gtk_notebook_get_nth_page(GtkNotebook *, int);
+int gtk_notebook_get_n_pages(GtkNotebook *);
+GtkWidget *gtk_notebook_get_tab_label(GtkNotebook *, GtkWidget *);
+void gtk_notebook_set_menu_label(GtkNotebook *, GtkWidget *, GtkWidget *);
+void gtk_notebook_set_menu_label_text(GtkNotebook *, GtkWidget *, const char *);
+void gtk_notebook_set_tab_label(GtkNotebook *, GtkWidget *, GtkWidget *);
+void gtk_notebook_set_tab_label_text(GtkNotebook *, GtkWidget *, const char *);
+void gtk_notebook_set_tab_reorderable(GtkNotebook *, GtkWidget *, bool);
+void gtk_notebook_set_tab_detachable(GtkNotebook *, GtkWidget *, bool);
+const char *gtk_notebook_get_menu_label_text(GtkNotebook *, GtkWidget *);
+bool gtk_notebook_get_scrollable(GtkNotebook *);
+bool gtk_notebook_get_show_border(GtkNotebook *);
+bool gtk_notebook_get_show_tabs(GtkNotebook *);
+const char *gtk_notebook_get_tab_label_text(GtkNotebook *, GtkWidget *);
+GtkPositionType gtk_notebook_get_tab_pos(GtkNotebook *);
+bool gtk_notebook_get_tab_reorderable(GtkNotebook *, GtkWidget *);
+bool gtk_notebook_get_tab_detachable(GtkNotebook *, GtkWidget *);
+void gtk_notebook_set_current_page(GtkNotebook *, int);
+void gtk_notebook_set_group_name(GtkNotebook *, const char *);
+const char *gtk_notebook_get_group_name(GtkNotebook *);
+void gtk_notebook_set_action_widget(GtkNotebook *, GtkWidget *, GtkPackType);
+GtkWidget *gtk_notebook_get_action_widget(GtkNotebook *, GtkPackType);
+
