@@ -28,6 +28,7 @@
 #include "bind-headers/gtk/gtk-chicken-scrolled-window.h"
 #include "bind-headers/gtk/gtk-chicken-text-buffer.h"
 #include "bind-headers/gtk/gtk-chicken-text-iter.h"
+#include "bind-headers/gtk/gtk-chicken-text-tag.h"
 #include "bind-headers/gtk/gtk-chicken-text-tag-table.h"
 #include "bind-headers/gtk/gtk-chicken-text-view.h"
 #include "bind-headers/gtk/gtk-chicken-tree-model.h"

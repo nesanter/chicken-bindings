@@ -39,6 +39,8 @@ void gtk_source_view_set_auto_indent(GtkSourceView *, bool);
 bool gtk_source_view_get_auto_indent(GtkSourceView *);
 void gtk_source_view_set_indent_on_tab(GtkSourceView *, bool);
 bool gtk_source_view_get_indent_on_tab(GtkSourceView *);
+void gtk_source_view_set_indent_width(GtkSourceView *, int);
+int gtk_source_view_get_indent_width(GtkSourceView *);
 void gtk_source_view_set_insert_spaces_instead_of_tabs(GtkSourceView *, bool);
 bool gtk_source_view_get_insert_spaces_instead_of_tabs(GtkSourceView *);
 void gtk_source_view_set_smart_home_end(GtkSourceView *, GtkSourceSmartHomeEndType);

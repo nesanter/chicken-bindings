@@ -1,3 +1,3 @@
 PKGS="gtk+-3.0 gtksourceview-3.0 poppler-glib libcgraph libgvc librsvg-2.0"
 
-csc gtk-chicken.scm -C "$(pkg-config --cflags $PKGS)" -L "$(pkg-config --libs $PKGS)" -X bind
+csc $1 -C "$(pkg-config --cflags $PKGS)" -L "$(pkg-config --libs $PKGS)" -X bind
