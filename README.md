@@ -13,5 +13,6 @@ Packages used:
 * GtkSourceView 3 (gtksourceview-3.0)
 * Poppler (poppler-glib)
 * Graphviz (libcgraph & libgvc)
-* librsvg
+* librsvg (librsvg-2.0)
+* FluidSynth (fluidsynth)
 
